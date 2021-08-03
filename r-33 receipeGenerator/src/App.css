@@ -1,0 +1,89 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #d1d1d1;
+    font-style: italic;
+    font-family: cursive;
+}
+.card-header{
+    background: linear-gradient(to right,#1a1d12, #200285);
+}
+.card-header h5{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+}
+.receipeContainer  {
+    width: 600px;
+    height: auto;
+}
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.rightContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+.btns{
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
+    background: linear-gradient(to right,#1a1d12, #200285);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.imgContainer{
+    width: 260px;
+    height: 210px;
+    background-color: black;
+    border-radius: 5px;
+}
+.imgContainer img, .spinnerContainer img {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightContainer h6{
+    display: flex;
+    justify-content: center;
+}
+
+.bottomContainer{
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h6{
+    font-size: 18px;
+    font-weight: bold;
+    color: #300285;
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
